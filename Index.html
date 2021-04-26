@@ -16,25 +16,36 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,700&display=swap"
     rel="stylesheet" />
-    <link href="aos.css" rel="stylesheet" />
+  <link href="aos.css" rel="stylesheet" />
   <script src="aos.js"></script>
   <script src="app.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+  
+  
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
 </head>
 
 <body>
   <section class="page">
     <div class="nav1">
       <img src="Image1.jpg" alt="photo">
-      <div class=" nav2">
-        <nav class="navbar navbar-expand-md bg-dark ">
+      <div class="nav2 fixed-top"  data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+        
+        <nav class="navbar navbar-expand-md bg-dark">
           <!-- Brand -->
           <a class="navbar-brand text-white" href="#">MediaHelpLine</a>
 
           <!-- Toggler/collapsibe Button -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+              
           </button>
 
           <!-- Navbar links -->
@@ -46,7 +57,7 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                   aria-expanded="false">About Us</a>
-                <div class="dropdown-menu">
+                <div class="dropdown-menu" >
                   <a class="dropdown-item" href="#">Introduction</a><br>
                   <a class="dropdown-item" href="#">Our Team</a><br>
                   <a class="dropdown-item" href="#">Our Partners</a>
@@ -129,13 +140,14 @@
           </div>
         </div>
 
+      
       </div>
     </div>
     <a href="#" class="scroll-down" address="true"></a>
-    </section>
-    <br><br>
+  </section>
+  <br><br>
 
-    <!-- <div class="container ">
+  <!-- <div class="container ">
       <div class="row">
         <div class="col-lg-4 col-md-4 col-12 ">
           <img src="Image2.jpg" alt="Photo" class="img2">
@@ -158,120 +170,99 @@
 
       </div>
     </div> -->
-    <section class="section section--about">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 align-self-md-center">
-            <article class="article article--highlighted">
-              <h3 class="underline" style="color:#212529; font-size:30px; font-weight: 700;"
-                class="article-title"
-                data-aos="fade-up"
-                data-aos-delay="300"
-                data-aos-duration="1000"
-              >
-               
-         INTRODUCTION AND HISTORY
-              </h3>
-              <div
-                data-aos="fade-up"
-                data-aos-delay="600"
-                data-aos-duration="1000"
-              >
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facere, consectetur odit? Aperiam impedit quod eveniet quo
-                  consequatur quia odit recusandae nulla tenetur sunt culpa
-                  et totam enim, libero in praesentium.
-                </p>
-
-                <p>
-                  
-                    Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Sint, suscipit a. Temporibus voluptates nisi ad
-                    est numquam nesciunt ratione quae.
-                  
-                </p>
-                <p>
-                  
-                  Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit. Sint, suscipit a. Temporibus voluptates nisi ad
-                  est numquam nesciunt ratione quae.
-                
-              </p>
-                <a href="#" class="btn btn-primary btn-lg">Learn more</a>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6 mt-5 mt-md-0">
-            <div
-              class="offset-image"
-              data-aos="zoom-in-up"
-              data-aos-delay="6s00"
-              data-aos-duration="3000"
-            >
-              <img
-                src="Image2.jpg"
-                alt=""
-                class="img-fluid  shadows"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <br>
-    <div class="container view-button ">
-      <div
-      data-aos="fade-up"
-      data-aos-delay="600"
-      data-aos-duration="1000"
-    >
-        <h1 style="color:#212529; font-size:40px; text-transform: uppercase; font-weight: bold;">Latest program</h1>
-        <button class="btn btn-primary btn-lg button2">View All</button>
-      </div>
-    </div>
-    <br>
-
-
+  <section class="section section--about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-12">
-          <div class="leftcontent">
-            <div class="Content1"><img src="Image1.jpg" class="img4"></div>
+        <div class="col-md-6 align-self-md-center">
+          <article class="article article--highlighted">
+            <h3 class="underline" style="color:#212529; font-size:30px; font-weight: 700;" class="article-title"
+              data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
 
-            <div class="Content2">
-              <h2 style="font-weight: bold;">Nepal Television</h2>
-              <div class="program">
-                <h4>Nepal Samachar</h4>
-              </div>
-              <div class="icon"> <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 2021-4-25</i></div>
-              <button class="btn btn-primary btn3 ">View More</button>
+              INTRODUCTION AND HISTORY
+            </h3>
+            <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facere, consectetur odit? Aperiam impedit quod eveniet quo
+                consequatur quia odit recusandae nulla tenetur sunt culpa
+                et totam enim, libero in praesentium.
+              </p>
+
+              <p>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Sint, suscipit a. Temporibus voluptates nisi ad
+                est numquam nesciunt ratione quae.
+
+              </p>
+              <p>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Sint, suscipit a. Temporibus voluptates nisi ad
+                est numquam nesciunt ratione quae.
+
+              </p>
+              <a href="#" class="btn btn-primary btn-lg">Learn more</a>
             </div>
-
+          </article>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="offset-image" data-aos="zoom-in-up" data-aos-delay="6s00" data-aos-duration="3000">
+            <img src="Image2.jpg" alt="" class="img-fluid  shadows" />
           </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-12 ">
-          <div class="leftcontent">
-            <div class="Content1"><img src="Image1.jpg" class="img4"></div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <div class="container view-button ">
+    <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+      <h1 class="latest" >Latest program</h1>
+      <button class="btn btn-primary btn-lg button2">View All</button>
+    </div>
+  </div>
+  <br>
 
-            <div class="Content2">
-              <h2 style="font-weight: bold;">Nepal Television</h2>
-              <div class="program">
-                <h4>Nepal Samachar</h4>
-              </div>
-              <div class="icon"> <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 2021-4-25</i></div>
-              <button class="btn btn-primary btn3">View More</button>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-12">
+        <div class="leftcontent">
+          <div class="Content1"><img src="Image1.jpg" class="img4"></div>
+
+          <div class="Content2">
+            <h2 style="font-weight: bold;">Nepal Television</h2>
+            <div class="program">
+              <h4>Nepal Samachar</h4>
             </div>
+            <div class="icon"> <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 2021-4-25</i></div>
+            <button class="btn btn-primary btn3 ">View More</button>
+          </div>
 
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-12 ">
+        <div class="leftcontent">
+          <div class="Content1"><img src="Image1.jpg" class="img4"></div>
+
+          <div class="Content2">
+            <h2 style="font-weight: bold;">Nepal Television</h2>
+            <div class="program">
+              <h4>Nepal Samachar</h4>
+            </div>
+            <div class="icon"> <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 2021-4-25</i></div>
+            <button class="btn btn-primary btn3">View More</button>
           </div>
 
         </div>
 
       </div>
-    </div>
 
-    <br><br>
-    <!-- <div class="container">
+    </div>
+  </div>
+
+  <br><br>
+  <!-- <div class="container">
     <h1 style="color:#22a6b3; font-size:40px; text-transform: uppercase; font-weight: bold;">OUR SERVICES</h1><br><br><br>
     <div class="row ">
         <div class="col-lg-3 col-md-3 col-12 services">
@@ -296,48 +287,48 @@
     </div>
 
 </div> -->
-    <section class="section section--services">
-      <header class="section-header text-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-        <h3 class="section-title bordered">Services</h3>
-      </header>
-      <ul class="services">
-        <li class="services-item">
-          <div class="icon" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
-            <img src="Image2.jpg" class="img3" >
-          </div>
-          <div class="services-title" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
-            TV Programs
-          </div>
-        </li>
-        <li class="services-item">
-          <div class="icon" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
-            <img src="Image2.jpg " class="img3">
-          </div>
-          <div class="services-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
-            Documentary
-          </div>
-        </li>
-        <li class="services-item">
-          <div class="icon" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
-            <img src="Image2.jpg" class="img3">
-          </div>
-          <div class="services-title" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-            Event videos
-          </div>
-        </li>
-        <li class="services-item">
-          <div class="icon" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
-            <img src="Image2.jpg" class="img3">
-          </div>
-          <div class="services-title" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
-            Live events
-          </div>
-        </li>
-      </ul>
-    </section>
-    <br><br><br>
-    <!-- mycode -->
-    <!-- <section class="container">
+  <section class="section section--services">
+    <header class="section-header text-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+      <h3 class="section-title bordered">Services</h3>
+    </header>
+    <ul class="services">
+      <li class="services-item">
+        <div class="icon" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+          <img src="Image2.jpg" class="img3">
+        </div>
+        <div class="services-title" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
+          TV Programs
+        </div>
+      </li>
+      <li class="services-item">
+        <div class="icon" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+          <img src="Image2.jpg " class="img3">
+        </div>
+        <div class="services-title" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+          Documentary
+        </div>
+      </li>
+      <li class="services-item">
+        <div class="icon" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+          <img src="Image2.jpg" class="img3">
+        </div>
+        <div class="services-title" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+          Event videos
+        </div>
+      </li>
+      <li class="services-item">
+        <div class="icon" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
+          <img src="Image2.jpg" class="img3">
+        </div>
+        <div class="services-title" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
+          Live events
+        </div>
+      </li>
+    </ul>
+  </section>
+  <br><br><br>
+  <!-- mycode -->
+  <!-- <section class="container">
       <div class="partner">
         <div>
           <h1 style="color:#22a6b3; font-size:40px; text-transform: uppercase; font-weight: bold;">Our Partners</h1>
@@ -364,191 +355,133 @@
       </div>
     </section> -->
 
-    <section class="section section--light">
-      <div class="container">
-        <header class="section-header text-center"
-        data-aos="fade-left"
-        data-aos-delay="100"
-        data-aos-duration="1000">
-          <h2 class="section-title bordered mb-2">OUR PARTNERS</h2>
-        </header>
-        <div class="row ">
-          <div class="col-lg-3 col-md-3 col-12">
-            <div
-              class="offset-image"
-              data-aos="fade-left"
-              data-aos-delay="6000"
-              data-aos-offset="500"
-              data-aos-duration="2000"
-            >
-              <img
-                src="Image2.jpg"
-                alt=""
-                class="img-fluid  shadows"
-              />
-            </div>
+  <section class="section section--light">
+    <div class="container">
+      <header class="section-header text-center" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
+        <h2 class="section-title bordered mb-2">OUR PARTNERS</h2>
+      </header>
+      <!-- <div class="row ">
+        <div class="col-lg-3 col-md-3 col-12">
+          <div class="offset-image" data-aos="fade-left" data-aos-delay="8000" 
+            data-aos-duration="2000">
+            <img src="Image2.jpg" alt="" class="img-fluid  shadows" />
           </div>
-          <div class="col-lg-3 col-md-3 col-12">
-            <div
-              class="offset-image"
-              data-aos="fade-up"
-              data-aos-delay="6000"
-              data-aos-offset="500"
-              data-aos-duration="2000"
-            >
-              <img
-                src="Image2.jpg"
-                alt=""
-                class="img-fluid  shadows"
-              />
-            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-12">
+          <div class="offset-image" data-aos="fade-left" data-aos-delay="8000" 
+            data-aos-duration="2000">
+            <img src="Image2.jpg" alt="" class="img-fluid  shadows" />
           </div>
-          <div class="col-lg-3 col-md-3 col-12">
-            <div
-              class="offset-image"
-              data-aos="fade-down"
-              data-aos-delay="6000"
-              data-aos-offset="500"
-              data-aos-duration="2000"
-            >
-              <img
-                src="Image2.jpg"
-                alt=""
-                class="img-fluid  shadows"
-              />
-            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-12">
+          <div class="offset-image" data-aos="fade-left" data-aos-delay="8000" 
+            data-aos-duration="2000">
+            <img src="Image2.jpg" alt="" class="img-fluid  shadows" />
           </div>
-          <div class="col-lg-3 col-md-3 col-12">
-            <div
-              class="offset-image"
-              data-aos="fade-right"
-              data-aos-delay="6000"
-              data-aos-offset="500"
-              data-aos-duration="2000"
-            >
-              <img
-                src="Image2.jpg"
-                alt=""
-                class="img-fluid  shadows"
-              />
-            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-12">
+          <div class="offset-image" data-aos="fade-left" data-aos-delay="8000" 
+            data-aos-duration="2000">
+            <img src="Image2.jpg" alt="" class="img-fluid  shadows" />
           </div>
-
-        <!-- <div class="row row-cols-1 row-cols-md-3">
-          <div class="col mb-4">
-            <div class="card h-100 card--hovered"
-            data-aos="fade-right"
-            data-aos-delay="100"
-            data-aos-offset="300"
-            data-aos-duration="1000">
-              <div class="card-body">
-                <div class="icon">
-                  <span class="material-icons">healing</span>
-                </div>
-                <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempora dolor commodi amet
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card h-100 card--hovered"
-            data-aos="fade-up"
-            data-aos-delay="300"
-            data-aos-offset="300"
-            data-aos-duration="1000">
-              <div class="card-body">
-                <div class="icon">
-                  <span class="material-icons">filter_drama</span>
-                </div>
-                <h5 class="card-title">
-                  Lorem ipsum dolor sit amet consectetur.
-                </h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempora dolor commodi amet
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card h-100 card--hovered"
-            data-aos="fade-left"
-            data-aos-offset="300"
-            data-aos-delay="600"
-            data-aos-duration="1000">
-              <div class="card-body">
-                <div class="icon">
-                  <span class="material-icons">emoji_flags</span>
-                </div>
-                <h5 class="card-title">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempora dolor commodi amet
-                </p>
-              </div>
-            </div>
-          </div>
+        </div>
         </div> -->
-      </div>
-    </section>
-    <br><br>
+        <div class="swiper-container" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="Image2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="Image3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="Image4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="Image2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="Image3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="Image4.jpg" alt=""></div> 
+            <div class="swiper-slide"><img src="Image2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="Image3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="Image4.jpg" alt=""></div>
+          </div>
+          <!-- <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div> -->
+          <!-- Add Pagination -->
+          
+        </div>
+        <div class="swiper-pagination"></div>
+          
 
-    <div class="silhouette">
-      <img src="Image5.png">
+    
+      <!-- <ul id="lightSlider">
+        <li>
+          <div class="offset-image" data-aos="fade-left" data-aos-delay="8000" data-aos-offset="500"
+          data-aos-duration="2000">
+          <img src="Image2.jpg" alt="" class="img-fluid  shadows" />
+        </div>
+        </li>
+        <li>
+          <div class="offset-image" data-aos="fade-left" data-aos-delay="8000" data-aos-offset="500"
+          data-aos-duration="2000">
+          <img src="Image2.jpg" alt="" class="img-fluid  shadows" />
+        </div>
+        </li>
+        <li>
+          <div class="offset-image" data-aos="fade-left" data-aos-delay="8000" data-aos-offset="500"
+          data-aos-duration="2000">
+          <img src="Image2.jpg" alt="" class="img-fluid  shadows" />
+        </div>
+        </li>
+        <li>
+          <div class="offset-image" data-aos="fade-left" data-aos-delay="8000" data-aos-offset="500"
+          data-aos-duration="2000">
+          <img src="Image2.jpg" alt="" class="img-fluid  shadows" />
+        </div>
+        </li>
+        ...
+      </ul> -->
+  </section>
+  <br><br>
+
+  <div class="silhouette">
+    <img src="Image9.png">
+  </div>
+
+
+
+
+  <section class=" footer">
+    <div class="row ">
+      <div class="col-lg-4 col-md-4 col-12 mt-5">
+        <div class="footer1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+          <h2>MEDIA HELPLINE</h2>
+          <div class="content">
+            <div><i class="fa fa-map-marker" aria-hidden="true"> New Baneshwor</i></div>
+            <div><i class="fa fa-phone-square" aria-hidden="true"> 0178945612/01234598</i></div>
+            <div><i class="fa fa-envelope" aria-hidden="true"> mediahelpline@gmail.com</i></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 quickLink mt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+        <h2 style="  color: rgb(255, 255, 255); font-weight: bold;">Quick link</h2>
+        <div class="footerContent">
+
+          <div class="footercontent1">
+            <div>About us</div>
+            <div>Team</div>
+            <div>Partner</div>
+            <div>Contact us</div>
+          </div>
+          <div class="footercontent2">
+            <div>Programs</div>
+            <div>Documentary</div>
+            <div>Event videos</div>
+            <div>live Events</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 map mt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+        <h2 style=" color: rgb(255, 255, 255); font-weight: bold;">MAP</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.0685994678893!2d85.32814111490096!3d27.684274582801393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19bd264a30b7%3A0x2420632873c2bf1c!2sMedia%20Action%20Nepal%20(MAN)!5e0!3m2!1sen!2snp!4v1619170948362!5m2!1sen!2snp" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
     </div>
-
-
-
-
-    <section class=" footer">
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-12">
-          <div class="footer1"  data-aos="fade-up"
-          data-aos-duration="1000"
-          data-aos-delay="600">
-            <h2>MEDIA HELPLINE</h2>
-            <div class="content">
-              <div><i class="fa fa-map-marker" aria-hidden="true"> New Baneshwor</i></div>
-              <div><i class="fa fa-phone-square" aria-hidden="true"> 0178945612/01234598</i></div>
-              <div><i class="fa fa-envelope" aria-hidden="true"> mediahelpline@gmail.com</i></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-12 quickLink"  data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-delay="600">
-          <h2 style="  color: rgb(255, 255, 255); font-weight: bold;">Quick link</h2>
-          <div class="footerContent">
-
-            <div class="footercontent1 mb-5">
-              <div>About us</div>
-              <div>Team</div>
-              <div>Partner</div>
-              <div>Contact us</div>
-            </div>
-            <div class="footercontent2">
-              <div>Programs</div>
-              <div>Documentary</div>
-              <div>Event videos</div>
-              <div>live Events</div>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-lg-4 col-md-4 col-12 map"  data-aos="fade-up"
-        data-aos-duration="1000"
-        data-aos-delay="600">
-          <h2 style="align-items: left;  color: rgb(255, 255, 255); font-weight: bold;">MAP</h2>
-          <img src="Image8.png" class="img-fluid img8">
-        </div>
-      </div>
-      <br>
-    </section>
+    <br>
+  </section>
 
 
 
